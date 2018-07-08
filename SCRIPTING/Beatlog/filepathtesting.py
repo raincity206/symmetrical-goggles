@@ -84,8 +84,7 @@ print(collectElements(dirs))
 #Writes contents of filePath to a txt file
 file = open("testtext.txt","w+")
 for item in fileList(filePath):
-  file.write(os.path.basename(item) +", "+convertIntToTimestamp(get_lastupdate_date(item))+", "+convertIntToTimestamp(creation_date(item))+", "+os.path.abspath(item)+"\n")
-  
+  file.write(os.path.basename(item) +", "+convertIntToTimestamp(get_lastupdate_date(item))+", "+convertIntToTimestamp(creation_date(item))+", "+os.path.abspath(item)+"\n")  
 file.close
 
 #convert txt -> csv
