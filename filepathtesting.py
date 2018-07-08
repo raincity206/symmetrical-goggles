@@ -56,7 +56,6 @@ def mylistdir(directory):
 
 
 ## INPUTDIRECTORIES
-#dirs = []
 subpath = []
 subdirs = []
 thefiles = []
