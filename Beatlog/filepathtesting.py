@@ -89,7 +89,6 @@ for item in fileList(filePath):
 file.close
 
 #convert txt -> csv
-
 with open('testcsv.csv', 'w+') as fp:
     a = csv.writer(fp, delimiter=',')
     a.writerow(['File Name','Updated Date','Created Date','Path'])
