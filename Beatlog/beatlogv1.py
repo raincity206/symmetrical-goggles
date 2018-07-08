@@ -124,7 +124,7 @@ def mylistdir(directory):
             if not (x.startswith('.'))]
 
 
-filePath = r"/Users/blakenicholson/Dropbox/Ableton Projects"
+##filePath = r"/Users/blakenicholson/Dropbox/Ableton Projects"
 dirs = mylistdir(filePath)
 print(dirs)
 
